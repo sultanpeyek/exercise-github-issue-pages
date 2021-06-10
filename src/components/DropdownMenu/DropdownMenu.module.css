@@ -1,0 +1,37 @@
+.DropdownMenuWrapper {
+  position: relative;
+}
+
+.DropdownMenuTitle {
+  background-color: #30363d;
+  flex-shrink: 0;
+  padding: 5px 12px;
+  border: 1px solid #21262d;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0) 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.DropdownMenu {
+  border-radius: 6px;
+  background-color: #30363d;
+  width: 300px;
+  position: absolute;
+  text-align: left;
+  left: 0;
+  top: 32px;
+}
+
+.DropdownMenu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.DropdownMenu li {
+  padding: 8px 16px;
+  border-top: 1px solid #21262d;
+  cursor: pointer;
+}

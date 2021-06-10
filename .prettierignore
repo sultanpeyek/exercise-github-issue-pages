@@ -1,0 +1,4 @@
+**/static/**
+**/.next/**
+**/flow-typed/**
+.yarn/**/*.js

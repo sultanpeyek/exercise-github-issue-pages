@@ -1,0 +1,45 @@
+.IssuesListPage {
+  text-align: left;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 1px solid #21262d;
+  border-radius: 0 0 8px 8px;
+}
+
+.IssuesListPage__Title {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  min-height: 32px;
+  margin-top: 24px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.IssuesListPage__Filter {
+  border-radius: 6px 0 0 6px;
+}
+
+.IssuesListPage__FormControl {
+  display: flex;
+  flex-direction: row;
+  max-width: 960px;
+  margin: 16px auto;
+}
+
+.IssuesListPage__InputField {
+  margin-right: 8px;
+  flex: auto;
+  border-radius: 0 6px 6px 0 !important;
+  border-left: 0 !important;
+}
+
+.IssuesListPage__Button {
+  flex-shrink: 0;
+}
+
+.LoadingState,
+.EmptyState {
+  padding: 16px;
+}

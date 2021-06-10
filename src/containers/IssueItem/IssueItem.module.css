@@ -1,0 +1,28 @@
+.IssueItem {
+  padding: 8px;
+  text-align: left;
+  padding: 16px;
+  margin-top: -1px;
+  list-style-type: none;
+  border-top: 1px solid #21262d;
+  display: flex;
+}
+
+.IssueItem__Icon {
+  flex-shrink: 0;
+  margin-right: 16px;
+}
+
+.IssueItem:hover {
+  background-color: #161b22;
+}
+
+.IssueItem__Title {
+  font-size: 16px;
+  font-weight: 600 !important;
+}
+
+.IssueItem__Info {
+  font-size: 12px;
+  margin-top: 4px;
+}
